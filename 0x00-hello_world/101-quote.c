@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<unistd.h>
 /**
  * main - print quote
- * Reture: Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
