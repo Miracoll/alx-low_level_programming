@@ -1,30 +1,45 @@
 #include<stdio.h>
-
 /**
- * main -display all possible combinations of tw0 two-digit numbers.
+ * main -display pair of double digit combos
  *
  * Return: Always 0 (Success)
+ *
  */
-
 int main(void)
 {
-	int row = 48;
-	int column = 49;
+	int i, j, k, m;
 
-	for (row = 48; row <= 57; row++)
+	i = 48;
+	while (i < 58)
 	{
-		for (column = 48; column <= 57; column++)
+		j = 48;
+		while (j < 58)
 		{
-			if (row == '0' && column == '0')
-				continue;
-			putchar(row);
-			putchar(column);
-			if (row == '9' && column == '9')
-				break;
-			putchar(',');
-			putchar(' ');
+			m = j + 1;
+			k = i;
+			while (k < 58)
+			{
+				while (m < 58)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(32);
+					putchar(k);
+					putchar(m);
+					if (i < 57 || j < 56 || k < 57 || m < 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
+					m++;
+				}
+				m = 48;
+				k++;
+			}
+			j++;
 		}
+		i++;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
