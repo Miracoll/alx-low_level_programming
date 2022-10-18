@@ -19,6 +19,6 @@ int main(void)
 		}
 		counter++;
 	}
-	printf("%d", total);
+	printf("%d\n", total);
 	return (0);
 }
