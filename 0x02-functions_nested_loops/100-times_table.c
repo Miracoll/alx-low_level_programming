@@ -3,6 +3,8 @@
 /**
  * print_times_table - prints the n times table
  *
+ * @n: value for which the times table will display
+ *
  * Return: void
  */
 
