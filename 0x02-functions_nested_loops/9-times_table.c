@@ -18,7 +18,7 @@ void times_table(void)
 			tens = prod / 10;
 			unit = prod % 10;
 
-			if (column == 0)
+			if (j == 0)
 				_putchar('0');
 			else if (prod < 10)
 			{
