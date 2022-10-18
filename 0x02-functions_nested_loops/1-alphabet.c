@@ -10,7 +10,7 @@ int main(void)
 	int start;
 
 	for (start = 97; start <= 122; start++)
-		_puchar(start);
+		_putchar(start);
 	_putchar('\n');
 
 	return (0);
