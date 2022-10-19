@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	long int prev = 0;
-	long int next = 1;
-	long int total;
+	unsigned long int prev = 0;
+	unsigned long int next = 1;
+	unsigned long int total;
 	int counter;
 
 	for (counter = 1; counter <= 98; counter++)
 	{
 		total = prev + next;
 		if (counter != 98)
-			printf("%ld, ", total);
+			printf("%lu, ", total);
 		else
-			printf("%ld\n", total);
+			printf("%lu\n", total);
 		prev = next;
 		next = total;
 	}
