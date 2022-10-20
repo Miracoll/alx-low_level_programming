@@ -9,7 +9,6 @@
 void more_numbers(void)
 {
 	int x, y, mod;
-	int check = 0;
 
 	for (x = 0; x < 10; x++)
 	{
