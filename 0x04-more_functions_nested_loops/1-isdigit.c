@@ -9,6 +9,7 @@
 int _isdigit(int c)
 {
 	int number;
+
 	if (c >= '0' && c <= '9')
 		number = 1;
 	else
