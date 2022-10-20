@@ -15,5 +15,5 @@ int _isupper(int c)
 	else
 		upper = 0;
 
-	return (0);
+	return (upper);
 }
