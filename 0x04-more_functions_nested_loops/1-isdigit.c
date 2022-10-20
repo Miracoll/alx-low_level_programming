@@ -1,9 +1,9 @@
-#include "main"
+#include "main.h"
 
 /**
- * _isdigit - checks for digithood
+ * _isdigit - checks for digit
  * @c: character to checked for numeric value
- * Return 1 if numeric otherwise 0
+ * Return: 1 if numeric otherwise 0
  */
 
 int _isdigit(int c)
@@ -14,4 +14,5 @@ int _isdigit(int c)
 		number = 1;
 	else
 		number = 0;
+	return (number);
 }
