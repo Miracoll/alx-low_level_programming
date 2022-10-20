@@ -17,7 +17,9 @@ void more_numbers(void)
 		{
 			mod = y % 10;
 			if ((y / 10) > 0)
+			{
 				_putchar(49);
+			}
 			_putchar(mod + 48);
 		}
 		_putchar('\n');
