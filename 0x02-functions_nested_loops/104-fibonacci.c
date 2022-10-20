@@ -16,7 +16,7 @@ int main(void)
 	printf("%lu, ", prev);
 	printf("%lu, ", next);
 
-	for (counter = 1; counter <= 98; counter++)
+	for (counter = 3; counter <= 98; counter++)
 	{
 		total = prev + next;
 		if (counter != 98)
