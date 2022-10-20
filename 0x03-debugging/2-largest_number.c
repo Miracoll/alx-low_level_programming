@@ -18,6 +18,12 @@ int largest_number(int a, int b, int c)
 		largest = b;
 	else if (c >= b && b > a)
 		largest = c;
+	else if (a >= b && c > b)
+		largest = a;
+	else if (b >= a && c > a)
+		largest = b;
+	else if (c >= b && a > b)
+		largest = c
 	else
 		largest = a;
 
