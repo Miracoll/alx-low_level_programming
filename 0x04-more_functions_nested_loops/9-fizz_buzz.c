@@ -15,7 +15,7 @@ int main(void)
 			printf("Fizz");
 		else if (counter % 3 != 0 && counter % 5 == 0)
 			printf("Buzz");
-		else if (counteer % 3 == 0 && counter % 5 == 0)
+		else if (counter % 3 == 0 && counter % 5 == 0)
 			printf("FizzBuzz");
 		else
 			printf("%d", counter);
