@@ -24,7 +24,7 @@ void print_diagonal(int n)
 				if (space == counter)
 					_putchar('\\');
 				else if (counter > space)
-					_putchar(' ')
+					_putchar(' ');
 			}
 			_putchar('\n');
 		}
