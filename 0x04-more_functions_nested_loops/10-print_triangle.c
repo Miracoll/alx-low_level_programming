@@ -3,6 +3,8 @@
 /**
  * print_triangle - print triangle
  *
+ * @size: triangle length
+ *
  * Return: void
  */
 
