@@ -2,6 +2,7 @@
 
 /**
  * print_line - draw straight line in terminal
+ * @n: number of line to print
  * Return: void
  */
 void print_line(int n)
