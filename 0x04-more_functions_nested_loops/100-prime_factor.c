@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int long number = 612852475143;
+	long int number = 612852475143;
 	int large = 0;
 	int counter;
 
@@ -25,7 +25,7 @@ int main(void)
 			}
 		}
 	}
-	printf("%d%", large);
+	printf("%d\n", large);
 
 	return (0);
 }
