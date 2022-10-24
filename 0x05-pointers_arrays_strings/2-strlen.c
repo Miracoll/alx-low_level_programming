@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strlen - count number of character(s)
@@ -9,5 +8,10 @@
 
 int _strlen(char *s)
 {
-	return (strlen(s));
+	int value = 0;
+
+	while (s[value] != '\0')
+		value++;
+
+	return (value);
 }
