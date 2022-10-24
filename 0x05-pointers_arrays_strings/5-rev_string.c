@@ -21,7 +21,7 @@ void rev_string(char *s)
 		first = s[high - mid];
 		end = s[mid];
 		s[mid] = first;
-		s[high - mid] = last;
+		s[high - mid] = end;
 		mid--;
 	}
 }
