@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void _put(char *str)
+void _puts(char *str)
 {
 	int counter = 0;
 	char value;
